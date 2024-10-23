@@ -17,7 +17,7 @@
 				Calculate
 			</button>
 
-			<p v-if='age'>You are {{ age }} years old</p>
+			<p class="ageText" v-if='age'>You are {{ age }} years old</p>
 		</div>
 	</div>
 </template>
@@ -111,10 +111,16 @@ input {
 	font-size: 1.2rem;
 	border-radius: 8px;
 	border: none;
+	background:#ffffff;
+	color:#000000;
 }
 
 .text {
 	font-size: 1.5em;
-	color: #FFF;
+	color: #000000;
+}
+.ageText{
+	color:indianred;
+	font-weight:600;
 }
 </style>
