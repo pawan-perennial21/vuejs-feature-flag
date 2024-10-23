@@ -67,11 +67,12 @@ export default {
 <style>
 body {
 	margin: 0;
+	padding:0;
 }
 
 #app {
 	text-align: center;
-	 background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+	background:#10375C;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -80,8 +81,8 @@ body {
 }
 
 .btn {
-	color: rgb(16, 82, 54);
-	  background-color: royalblue;
+	color: #F4F6FF;
+	  background-color: #EB8317;
 	border: none;
 	 padding: 8px 16px;
 	border-radius: 15px;
@@ -91,7 +92,7 @@ body {
 }
 
 .btn:hover {
-	background-color: rgb(16, 82, 54);
+	background-color: #F3C623;
 	color: #FFF;
 }
 
@@ -117,10 +118,10 @@ input {
 
 .text {
 	font-size: 1.5em;
-	color: #000000;
+	color: #ffffff;
 }
 .ageText{
-	color:indianred;
+	color:#FF6500;
 	font-weight:600;
 }
 </style>
